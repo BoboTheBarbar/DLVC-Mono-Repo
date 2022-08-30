@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository
 
 interface MessageRepository : CrudRepository<Message, String> {
 
-    @Query("select * from message")
+    @Query("select * from messages")
     fun findMessage(): List<Message>
 }
