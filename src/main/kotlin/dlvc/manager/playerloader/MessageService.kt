@@ -1,6 +1,6 @@
 package dlvc.manager.playerloader
 
-import dlvc.manager.playerloader.InterfaceAdapters.Message
+import dlvc.manager.playerloader.interfaceAdapters.Message
 import org.springframework.stereotype.Service
 
 @Service
